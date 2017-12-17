@@ -19,12 +19,14 @@ Rating (integer, but NULL by default)
 Class/Classes:
 - To loop all users and calculate the “Rating” by follow parameters:
 1) If the user is from:
-Hungary: 2 points
-Germany: 3 points
-France: 4 points
-Russia: 5 points
-Ukraine: 6 points
-Bulgaria: 7 points
+<ul>
+  <li>Hungary: 2 points</li>
+  <li>Germany: 3 points</li>
+  <li>France: 4 points</li>
+  <li>Russia: 5 points</li>
+  <li>Ukraine: 6 points</li>
+  <li>Bulgaria: 7 points</li>
+<ul>  
 
 2) If generated ID of the user is even 
 if is even to 3, add(plus) 1 point to the rating
@@ -38,12 +40,14 @@ if is even to 4, add(plus) 2 points to the rating
 
 
 Requirements:
-Security – let’s think that all information is entered by human
-Speed – optimization for more speed calculation
-PHP OOP
-Each class should be able to be called just once (one instance)
-Correct structuring of the MYSQL database (InnoDB)
-Prepared Statements for all queries
-Usage of  mysql transactions
-HTML, CSS, JS – are not important – you can skip them or minimize usage.
-Do NOT use any Framework’s like Symfony, Laravel, Zend, Yii…
+<ul>
+<li>Security – let’s think that all information is entered by human</li>
+<li>Speed – optimization for more speed calculation</li>
+<li>PHP OOP</li>
+<li>Each class should be able to be called just once (one instance)</li>
+<li>Correct structuring of the MYSQL database (InnoDB)</li>
+<li>Prepared Statements for all queries</li>
+<li>Usage of  mysql transactions</li>
+<li>HTML, CSS, JS – are not important – you can skip them or minimize usage.</li>
+<li>Do NOT use any Framework’s like Symfony, Laravel, Zend, Yii…</li>
+</ul>
