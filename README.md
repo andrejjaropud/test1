@@ -5,16 +5,16 @@ If you want you can use your own or external libraries like fzaninotto/Faker
 
 
 Write a script which will create 1000 users and generate following data:
-Username
-Password (hint: do not use MD5/SHA1) (should be min 6 char, should contains: small and big letters, numbers, special symbols)
-Country (Hungary, Germany, France, Russia, Ukraine, Bulgaria, Austria)
-Email (there should be validation for correct email)
-First name
-Last name
-ZIP Code
-Date and time of registration (between: 2016-01-01 and 2016-12-31)
-Active/Not active (all should be active)
-Rating (integer, but NULL by default)
+<li>Username</li>
+<li>Password (hint: do not use MD5/SHA1) (should be min 6 char, should contains: small and big letters, numbers, special symbols)</li>
+<li>Country (Hungary, Germany, France, Russia, Ukraine, Bulgaria, Austria)</li>
+<li>Email (there should be validation for correct email)</li>
+<li>First name</li>
+<li>Last name</li>
+<li>ZIP Code</li>
+<li>Date and time of registration (between: 2016-01-01 and 2016-12-31)</li>
+<li>Active/Not active (all should be active)</li>
+<li>Rating (integer, but NULL by default)</li>
 
 Class/Classes:
 - To loop all users and calculate the “Rating” by follow parameters:
