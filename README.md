@@ -19,14 +19,14 @@ Write a script which will create 1000 users and generate following data:
 Class/Classes:
 - To loop all users and calculate the “Rating” by follow parameters:
 1) If the user is from:
-<ul>
+
   <li>Hungary: 2 points</li>
   <li>Germany: 3 points</li>
   <li>France: 4 points</li>
   <li>Russia: 5 points</li>
   <li>Ukraine: 6 points</li>
   <li>Bulgaria: 7 points</li>
-<ul>  
+
 
 2) If generated ID of the user is even 
 if is even to 3, add(plus) 1 point to the rating
